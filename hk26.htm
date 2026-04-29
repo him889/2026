@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data SDY Lotto 2026</title>
-    <!-- PWA Manifest -->
+    <title>Data HK Pools 2026</title>
+    <!-- ✅ Perbaikan Manifest -->
     <link rel="manifest" href="data:application/manifest+json,{
-        %22name%22:%22Data%20SDY%20Lotto%202026%22,
-        %22short_name%22:%22SDY%20Lotto%202026%22,
+        %22name%22:%22Data%20HK%20Pools%202026%22,
+        %22short_name%22:%22HK%202026%22,
         %22start_url%22:%22.%22,
         %22display%22:%22standalone%22,
         %22background_color%22:%22%23121212%22,
         %22theme_color%22:%22%234CAF50%22,
         %22icons%22:[{
-            %22src%22:%22https://via.placeholder.com/192x192.png?text=SDY%22  ,
+            %22src%22:%22https://via.placeholder.com/192x192.png?text=HK%22,
             %22sizes%22:%22192x192%22,
             %22type%22:%22image/png%22
         },{
-            %22src%22:%22https://via.placeholder.com/512x512.png?text=SDY%22  ,
+            %22src%22:%22https://via.placeholder.com/512x512.png?text=HK%22,
             %22sizes%22:%22512x512%22,
             %22type%22:%22image/png%22
         }]
@@ -204,7 +204,6 @@
             font-size: 0.9em;
             border-radius: 4px;
             cursor: pointer;
-            transition: background-color 0.3s;
         }
         .sdy-table button.delete-button:hover {
             background-color: #689F38;
@@ -336,15 +335,15 @@
 <body id="top">
     <div class="container">
         <div class="header">
-            <h1>Data SDY Lotto 2026</h1>
+            <h1>Data HK Pools 2026</h1>
             <div class="subtitle">by: him's</div>
         </div>
 
         <div class="link-buttons">
             <a href="https://him37.wuaze.com/sgp26.htm" class="link-button sgp-button">SGP</a>
-            <a href="https://him37.wuaze.com/hk26.htm" class="link-button hk-button">HK</a>
+            <a href="https://him37.wuaze.com/sdy26.htm" class="link-button hk-button">SDY Pools</a>
             <a href="https://him37.wuaze.com/hkl26.htm" class="link-button hklive-button">HK Lotto</a>
-            <a href="https://him37.wuaze.com/sdy26.htm" class="link-button sdy-lotto-button">SDY Pools</a>
+            <a href="https://him37.wuaze.com/sdyl26.htm" class="link-button sdy-lotto-button">SDY Lotto</a>
         </div>
 
         <div class="form-container">
@@ -368,7 +367,7 @@
         </table>
 
         <div class="footer">
-            Data SDY Lotto 2026 ®Him's
+            Data HK Pools 2026 ®Him's
         </div>
     </div>
 
@@ -388,7 +387,7 @@
     </div>
 
     <audio id="musicPlayer" preload="none">
-        <source src="https://him37.wuaze.com/mandarin/qingren.mp3" type="audio/mpeg">
+        <source src="https://him37.wuaze.com/indo/hanya-rindu.mp3" type="audio/mpeg">
         Browser Anda tidak mendukung audio.
     </audio>
 
@@ -401,109 +400,102 @@
         let editRowIndex = null;
 
 const initialData = [
-    { date: "31/03/26", number: "8020" },
-    { date: "30/03/26", number: "3232" },
-    { date: "29/03/26", number: "8362" },
-    { date: "28/03/26", number: "7749" },
-    { date: "27/03/26", number: "6526" },
-    { date: "26/03/26", number: "9352" },
-    { date: "25/03/26", number: "8756" },
-    { date: "24/03/26", number: "7367" },
-    { date: "23/03/26", number: "1154" },
-    { date: "22/03/26", number: "5147" },
-    { date: "21/03/26", number: "4489" },
-    { date: "20/03/26", number: "2244" },
-    { date: "19/03/26", number: "0890" },
-    { date: "18/03/26", number: "4319" },
-    { date: "17/03/26", number: "9705" },
-    { date: "16/03/26", number: "5456" },
-    { date: "15/03/26", number: "2087" },
-    { date: "14/03/26", number: "7605" },
-    { date: "13/03/26", number: "4414" },
-    { date: "12/03/26", number: "4687" },
-    { date: "11/03/26", number: "3934" },
-    { date: "10/03/26", number: "4003" },
-    { date: "09/03/26", number: "6164" },
-    { date: "08/03/26", number: "3168" },
-    { date: "07/03/26", number: "3791" },
-    { date: "06/03/26", number: "5994" },
-    { date: "05/03/26", number: "8859" },
-    { date: "04/03/26", number: "2004" },
-    { date: "03/03/26", number: "5345" },
-    { date: "02/03/26", number: "8038" },
-    { date: "01/03/26", number: "4620" },
-    { date: "28/02/26", number: "3082" },
-    { date: "27/02/26", number: "5153" },
-    { date: "26/02/26", number: "8586" },
-    { date: "25/02/26", number: "8118" },
-    { date: "24/02/26", number: "9374" },
-    { date: "23/02/26", number: "7238" },
-    { date: "22/02/26", number: "9052" },
-    { date: "21/02/26", number: "4536" },
-    { date: "20/02/26", number: "0092" },
-    { date: "19/02/26", number: "3116" },
-    { date: "18/02/26", number: "3712" },
-    { date: "17/02/26", number: "4827" },
-    { date: "16/02/26", number: "0681" },
-    { date: "15/02/26", number: "4370" },
-    { date: "14/02/26", number: "5688" },
-    { date: "13/02/26", number: "3255" },
-    { date: "12/02/26", number: "8295" },
-    { date: "11/02/26", number: "8396" },
-    { date: "10/02/26", number: "0754" },
-    { date: "09/02/26", number: "8291" },
-    { date: "08/02/26", number: "2367" },
-    { date: "07/02/26", number: "8398" },
-    { date: "06/02/26", number: "2887" },
-    { date: "05/02/26", number: "0967" },
-    { date: "04/02/26", number: "6565" },
-    { date: "03/02/26", number: "8055" },
-    { date: "02/02/26", number: "9687" },
-    { date: "01/02/26", number: "1706" },
-    { date: "31/01/26", number: "8592" },
-    { date: "30/01/26", number: "5874" },
-    { date: "29/01/26", number: "0717" },
-    { date: "28/01/26", number: "9162" },
-    { date: "27/01/26", number: "5182" },
-    { date: "26/01/26", number: "2551" },
-    { date: "25/01/26", number: "9250" },
-    { date: "24/01/26", number: "5174" },
-    { date: "23/01/26", number: "3697" },
-    { date: "22/01/26", number: "4663" },
-    { date: "21/01/26", number: "5651" },
-    { date: "20/01/26", number: "5287" },
-    { date: "19/01/26", number: "4631" },
-    { date: "18/01/26", number: "5467" },
-    { date: "17/01/26", number: "8984" },
-    { date: "16/01/26", number: "0407" },
-    { date: "15/01/26", number: "4180" },
-    { date: "14/01/26", number: "2199" },
-    { date: "13/01/26", number: "3979" },
-    { date: "12/01/26", number: "7081" },
-    { date: "11/01/26", number: "8273" },
-    { date: "10/01/26", number: "4934" },
-    { date: "09/01/26", number: "7014" },
-    { date: "08/01/26", number: "2660" },
-    { date: "07/01/26", number: "7688" },
-    { date: "06/01/26", number: "5793" },
-    { date: "05/01/26", number: "6934" },
-    { date: "04/01/26", number: "6629" },
-    { date: "03/01/26", number: "3413" },
-    { date: "02/01/26", number: "8578" },
-    { date: "01/01/26", number: "6724" }
+    { date: "31/03/26", number: "6916" },
+    { date: "30/03/26", number: "8038" },
+    { date: "29/03/26", number: "0683" },
+    { date: "28/03/26", number: "6077" },
+    { date: "27/03/26", number: "0561" },
+    { date: "26/03/26", number: "4521" },
+    { date: "25/03/26", number: "4697" },
+    { date: "24/03/26", number: "1940" },
+    { date: "23/03/26", number: "0090" },
+    { date: "22/03/26", number: "3725" },
+    { date: "21/03/26", number: "7676" },
+    { date: "20/03/26", number: "1536" },
+    { date: "19/03/26", number: "6512" },
+    { date: "18/03/26", number: "4383" },
+    { date: "17/03/26", number: "8916" },
+    { date: "16/03/26", number: "4097" },
+    { date: "15/03/26", number: "1891" },
+    { date: "14/03/26", number: "4324" },
+    { date: "13/03/26", number: "9648" },
+    { date: "12/03/26", number: "8906" },
+    { date: "11/03/26", number: "5114" },
+    { date: "10/03/26", number: "0521" },
+    { date: "09/03/26", number: "5652" },
+    { date: "08/03/26", number: "9247" },
+    { date: "07/03/26", number: "9230" },
+    { date: "06/03/26", number: "2453" },
+    { date: "05/03/26", number: "1214" },
+    { date: "04/03/26", number: "8737" },
+    { date: "03/03/26", number: "9456" },
+    { date: "02/03/26", number: "7572" },
+    { date: "01/03/26", number: "9604" },
+    { date: "28/02/26", number: "6041" },
+    { date: "27/02/26", number: "8964" },
+    { date: "26/02/26", number: "4177" },
+    { date: "25/02/26", number: "9663" },
+    { date: "24/02/26", number: "3593" },
+    { date: "23/02/26", number: "8331" },
+    { date: "22/02/26", number: "2072" },
+    { date: "21/02/26", number: "7344" },
+    { date: "20/02/26", number: "0286" },
+    { date: "19/02/26", number: "3798" },
+    { date: "18/02/26", number: "7105" },
+    { date: "17/02/26", number: "9569" },
+    { date: "16/02/26", number: "1092" },
+    { date: "15/02/26", number: "8853" },
+    { date: "14/02/26", number: "7445" },
+    { date: "13/02/26", number: "8300" },
+    { date: "12/02/26", number: "2971" },
+    { date: "11/02/26", number: "8069" },
+    { date: "10/02/26", number: "3091" },
+    { date: "09/02/26", number: "6794" },
+    { date: "08/02/26", number: "0428" },
+    { date: "07/02/26", number: "4223" },
+    { date: "06/02/26", number: "7543" },
+    { date: "05/02/26", number: "4181" },
+    { date: "04/02/26", number: "6525" },
+    { date: "03/02/26", number: "9211" },
+    { date: "02/02/26", number: "4767" },
+    { date: "01/02/26", number: "7925" },
+    { date: "31/01/26", number: "9957" },
+    { date: "30/01/26", number: "5207" },
+    { date: "29/01/26", number: "3249" },
+    { date: "28/01/26", number: "4461" },
+    { date: "27/01/26", number: "1353" },
+    { date: "26/01/26", number: "6244" },
+    { date: "25/01/26", number: "3352" },
+    { date: "24/01/26", number: "2736" },
+    { date: "23/01/26", number: "1105" },
+    { date: "22/01/26", number: "5741" },
+    { date: "21/01/26", number: "2931" },
+    { date: "20/01/26", number: "9578" },
+    { date: "19/01/26", number: "1297" },
+    { date: "18/01/26", number: "2771" },
+    { date: "17/01/26", number: "9385" },
+    { date: "16/01/26", number: "5889" },
+    { date: "15/01/26", number: "4967" },
+    { date: "14/01/26", number: "9301" },
+    { date: "13/01/26", number: "4043" },
+    { date: "12/01/26", number: "3688" },
+    { date: "11/01/26", number: "0940" },
+    { date: "10/01/26", number: "8551" },
+    { date: "09/01/26", number: "7005" },
+    { date: "08/01/26", number: "9766" },
+    { date: "07/01/26", number: "5991" },
+    { date: "06/01/26", number: "5730" },
+    { date: "05/01/26", number: "4864" },
+    { date: "04/01/26", number: "9184" },
+    { date: "03/01/26", number: "8448" },
+    { date: "02/01/26", number: "8909" },
+    { date: "01/01/26", number: "3849" }
 ];
 
-        function getLocalStorageKey() {
-            const pageName = window.location.pathname.split('/').pop();
-            return `${pageName.replace('.htm', '')}Data`;
-        }
-
-        const localStorageKey = getLocalStorageKey();
-
         function initializeData() {
-            const savedData = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+            const savedData = JSON.parse(localStorage.getItem('hkData')) || [];
             if (savedData.length === 0) {
-                localStorage.setItem(localStorageKey, JSON.stringify(initialData));
+                localStorage.setItem('hkData', JSON.stringify(initialData));
             }
             loadData();
         }
@@ -520,7 +512,7 @@ const initialData = [
 
         function loadData() {
             const tableBody = document.getElementById('dataTableBody');
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || initialData;
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || initialData;
 
             savedData.sort((a, b) => {
                 const dateA = new Date(`20${a.date.slice(6, 8)}`, a.date.slice(3, 5) - 1, a.date.slice(0, 2));
@@ -572,7 +564,7 @@ const initialData = [
                 return;
             }
 
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || [];
             savedData.push({ date: dateInput, number: numberInput });
 
             savedData.sort((a, b) => {
@@ -581,7 +573,7 @@ const initialData = [
                 return dateB - dateA;
             });
 
-            localStorage.setItem(localStorageKey, JSON.stringify(savedData));
+            localStorage.setItem('hkData', JSON.stringify(savedData));
             loadData();
 
             document.getElementById('dateInput').value = '';
@@ -589,7 +581,7 @@ const initialData = [
         }
 
         function editRow(index) {
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || [];
             const dataToEdit = savedData[index];
 
             document.getElementById('dateInput').value = dataToEdit.date;
@@ -622,7 +614,7 @@ const initialData = [
                 return;
             }
 
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || [];
             savedData[editRowIndex] = { date: dateInput, number: numberInput };
 
             savedData.sort((a, b) => {
@@ -631,7 +623,7 @@ const initialData = [
                 return dateB - dateA;
             });
 
-            localStorage.setItem(localStorageKey, JSON.stringify(savedData));
+            localStorage.setItem('hkData', JSON.stringify(savedData));
             loadData();
 
             document.getElementById('dateInput').value = '';
@@ -642,7 +634,7 @@ const initialData = [
         }
 
         function deleteRow(index) {
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || [];
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || [];
             savedData.splice(index, 1);
 
             savedData.sort((a, b) => {
@@ -651,7 +643,7 @@ const initialData = [
                 return dateB - dateA;
             });
 
-            localStorage.setItem(localStorageKey, JSON.stringify(savedData));
+            localStorage.setItem('hkData', JSON.stringify(savedData));
             loadData();
         }
 
@@ -666,15 +658,15 @@ const initialData = [
 
         // Fungsi Bagikan Data
         function shareData() {
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || initialData;
-            let text = 'Data SDY Lotto 2026\n\nTanggal - Nomor\n';
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || initialData;
+            let text = 'Data HK Pools 2026\n\nTanggal - Nomor\n';
             savedData.forEach(item => {
                 text += `${item.date} - ${item.number}\n`;
             });
 
             if (navigator.share) {
                 navigator.share({
-                    title: 'Data SDY Lotto 2026',
+                    title: 'Data HK Pools 2026',
                     text: text
                 }).catch(err => console.log('Error sharing', err));
             } else {
@@ -687,8 +679,8 @@ const initialData = [
         }
 
         function downloadText() {
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || initialData;
-            let text = 'Data SDY Lotto 2026\n\nTanggal\tNomor\n';
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || initialData;
+            let text = 'Data HK Pools 2026\n\nTanggal\tNomor\n';
             savedData.forEach(item => {
                 text += `${item.date}\t${item.number}\n`;
             });
@@ -696,13 +688,13 @@ const initialData = [
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'data_sdyl_2026.txt';
+            a.download = 'data_hk_2026.txt';
             a.click();
             URL.revokeObjectURL(url);
         }
 
         function downloadCSV() {
-            let savedData = JSON.parse(localStorage.getItem(localStorageKey)) || initialData;
+            let savedData = JSON.parse(localStorage.getItem('hkData')) || initialData;
             let csv = 'Tanggal,Nomor\n';
             savedData.forEach(item => {
                 csv += `${item.date},${item.number}\n`;
@@ -711,7 +703,7 @@ const initialData = [
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'data_sdyl_2026.csv';
+            a.download = 'data_hk_2026.csv';
             a.click();
             URL.revokeObjectURL(url);
         }
